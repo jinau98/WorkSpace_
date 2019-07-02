@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    background-image: url("../images/background.jpg");
+    height: 900px;
+    width:100%;
+    background-size: 100% 100%;
+}
+
+nav{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding:30px 0 0 30px;
+}
+
+.logo{
+    font-size:50px;
+    color: white;
+}
+
+.menu ul li{
+    display:inline-block;
+    margin:12px 10px 0 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+    font-size:16px;
+    font-weight: 600;
+}
+main{
+    
+}
+
+section{
+
+}
+
+.sec_title{
+    display:inline-block;
+    padding:30px;
+}
+
+.card__box{
+
+}
+
+.card{
+
+}
+
+.card__img{
+
+}
+
+.search__box{
+    position: absolute;                     /* absolute는 브라우저에 관계 */
+    top:150px;
+    left:100px;
+    right:10px;
+    width:430px;
+    height:450px;
+    background-color: white;
+    border-radius: 6px; 
+    display: inline-block;  
+    color:rgb(83, 83, 83);
+    padding:10px;
+}
+table input[type=button]{
+    background-color: rgb(255, 106, 106);
+    color: white;
+    width: 70px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+header input[type=text]{
+    height:40px;
+    border:1px solid lightgray;
+    border-radius:4px;
+    font-size:20px;
+    width:100%;
+}
+.search__box td{
+    padding-top: 15px;
+}
+
+.search__btn{
+    display: grid;
+    justify-content: end;
+}
